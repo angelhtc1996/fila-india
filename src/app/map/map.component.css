@@ -1,0 +1,78 @@
+div#map {
+ height: 380px;
+ width: 400px;
+ margin: -10px auto;
+}
+.facebook {
+ background-color: #3c5090;
+ width: 30%;
+ border-radius: 9px;
+ color: white;
+ font-weight: 400;
+ height: 41px;
+}
+
+.whatsapp {
+ background: #46c655;
+ width: 30%;
+ border-radius: 9px;
+ margin-bottom: 5px;
+ color: white;
+ font-weight: 400;
+ height: 41px;
+}
+
+button#dropdownMenu2 {
+ position: relative;
+ z-index: 9999;
+ left: 260px;
+ top: 20px;
+ background: white;
+ color: #2eaf60;
+ border: 2px solid #2eaf60;
+ padding: 5px;
+ width: 30%;
+}
+.dropdown-menu.show {
+ top: 10px !important;
+ padding: 4px;
+ background: transparent;
+ border: 0px;
+ left: -5px !important;
+}
+
+img.logo.w {
+ width: 90%;
+ margin-left: -34px;
+ padding: 0;
+ margin-top: -10px;
+ margin-bottom: -10px;
+ margin-right: -14px;
+}
+img.logo.f {
+ width: 60%;
+ margin-left: -26px;
+ padding: 0;
+ margin-top: -7px;
+ margin-bottom: -8px;
+ margin-right: 0px;
+}
+img.filaIndia {
+ position: absolute;
+ width: 16%;
+ z-index: 999999;
+ margin-left: 3%;
+ margin-top: 2%;
+ border-radius: 14px;
+}
+
+@media only screen and (max-width: 414px) {
+ .whatsapp{width: 75%;}
+ .facebook{width: 75%;}
+ .dropdown-menu.show{left: 6% !important; right: 0; width: 0;}
+ div#map{width: 100%;}
+}
+
+@media only screen and (max-width: 375px) {
+ button#dropdownMenu2{left: 220px}
+}
